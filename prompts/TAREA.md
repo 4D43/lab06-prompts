@@ -63,3 +63,7 @@ Actua como desarrollador Java. Crea un programa en Java para gestionar el calulo
 | Lo usaria en un informe real        | no     |
 
 ## Errores que evite
+
+1. Ser demasiado general / Cómo se evitó: El prompt inicial era demasiado abierto ("Crea un programa en Java"). En el prompt final se corrigió especificando exactamente qué tipo de programa se requería, limitándolo al dominio de gestionar el cálculo de notas de un estudiante y detallando la clase Estudiante con sus atributos específicos (codigo, nombre, edad, grado, notas). Esto eliminó la ambigüedad y obligó a la IA a generar un caso de uso concreto y útil.
+
+2. No indicar el formato / Cómo se evitó: En lugar de dejar que la IA organizara la respuesta de forma aleatoria, el prompt final incluyó una instrucción de estructura explícita: "Explica primero la estructura de la clase y luego presenta el codigo Java". Además, se especificó un estilo de nomenclatura y visibilidad obligatorio para los métodos y atributos (getNombre(), setGrado(int grado), private int[] notas). Esto garantizó que la presentación y el formato del código coincidieran exactamente con lo esperado.
